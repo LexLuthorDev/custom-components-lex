@@ -1,0 +1,33 @@
+.alerta {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alerta.sucesso {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.alerta.erro {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+.alerta.aviso {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404;
+}
+
+.btn-fechar {
+  float: right;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+}
